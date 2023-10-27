@@ -1,0 +1,80 @@
+/* CSS Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1c698;
+    margin: 0;
+    padding: 0;
+}
+
+ h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    text-align: center;
+    background-color: #cba256;
+    color: #100f0f;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header img {
+    max-width: 210px;
+    border-radius: 50%;
+}
+
+/* Style bagian-bagian lainnya */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Style contoh karya */
+.work-sample {
+    margin: 10px;
+    text-align: center;
+}
+
+.work-sample img {
+    max-width: 20%;
+    border: 1px solid #080808;
+    border-radius: 2px;
+}
+
+.work-sample p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #eaedf0;
+    color: #0e0e0e;
+    text-align: center;
+    padding: 20px;
+}
